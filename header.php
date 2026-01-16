@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>My PHP Website</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <h1>My PHP Website</h1>
-        <nav>
-            <a href="index.php">Home</a>
+
+<header class="site-header">
+    <div class="container">
+        <div class="logo">
+            My<span>Website</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.php" class="active">Home</a>
             <a href="about.php">About</a>
-            <a href="services.php">Services</a>
+            <a href="service.php">Services</a>
             <a href="contact.php">Contact</a>
         </nav>
-    </header>
-    <main>
+    </div>
+</header>
 
+<main class="content">
