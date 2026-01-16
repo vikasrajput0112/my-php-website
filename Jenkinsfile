@@ -9,13 +9,13 @@ pipeline {
 
     stages {
 
-        stage('Build Docker Image') {
+        stage('Build Docker Image-1') {
             steps {
                 sh 'docker build -t $IMAGE_NAME:latest .'
             }
         }
 
-        stage('Stop Old Container') {
+        stage('Stop Old Container-1') {
             steps {
                 sh '''
                 docker stop $CONTAINER_NAME || true
