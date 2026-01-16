@@ -5,14 +5,11 @@
         <h2>About Us</h2>
         <p>
             We are a technology-driven team focused on delivering
-            high-quality digital solutions. Our mission is to help
-            businesses leverage technology to improve efficiency,
-            scalability, and growth.
+            secure, scalable, and high-quality digital solutions.
         </p>
         <p>
-            We believe in clean design, secure systems, and long-term
-            partnerships. Every solution we deliver is built with
-            performance and reliability in mind.
+            Our mission is to help businesses grow by leveraging
+            modern technologies and best practices.
         </p>
     </div>
 </section>
