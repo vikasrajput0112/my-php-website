@@ -1,19 +1,8 @@
-    </main>
-</div>
+</main>
 
-<script>
-    const buttons = document.querySelectorAll(".dropdown-btn");
-    buttons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            btn.classList.toggle("active");
-            const dropdown = btn.nextElementSibling;
-            if (dropdown && dropdown.classList.contains("dropdown")) {
-                dropdown.style.display =
-                    dropdown.style.display === "block" ? "none" : "block";
-            }
-        });
-    });
-</script>
+<footer class="footer">
+    <p>© <?php echo date("Y"); ?> My Website. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
