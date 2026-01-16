@@ -4,26 +4,18 @@ pipeline {
     environment {
         IMAGE_NAME = "php-website"
         CONTAINER_NAME = "php-website-container"
+        HOST_PORT = "8082"
     }
 
     stages {
 
-        stage('Checkout Code') {
+        stage('Build Docker Image-1') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/vikasrajput0112/my-php-website.git'
+                sh 'docker build -t $IMAGE_NAME:latest .'
             }
         }
 
-        stage('Build Docker Image') {
-            steps {
-                sh '''
-                docker build -t $IMAGE_NAME:latest .
-                '''
-            }
-        }
-
-        stage('Stop Old Container') {
+        stage('Stop Old Container-1') {
             steps {
                 sh '''
                 docker stop $CONTAINER_NAME || true
@@ -37,7 +29,7 @@ pipeline {
                 sh '''
                 docker run -d \
                 --name $CONTAINER_NAME \
-                -p 8080:80 \
+                -p $HOST_PORT:80 \
                 $IMAGE_NAME:latest
                 '''
             }
