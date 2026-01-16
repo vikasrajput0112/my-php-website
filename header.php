@@ -8,30 +8,42 @@
 </head>
 <body>
 
-<header class="header">
-    <div class="container header-flex">
-        <div class="logo">My<span>Website</span></div>
+<div class="layout">
 
-        <nav class="nav">
-            <a href="index.php">Home</a>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">My<span>Website</span></div>
 
-            <div class="dropdown">
-                <span class="dropbtn">Courses ▾</span>
-                <div class="dropdown-content">
-                    <div class="dropdown-title">Courses</div>
-                    <a href="#">Linux</a>
-                    <a href="#">AWS</a>
-                    <a href="#">Shell Script</a>
-                    <a href="#">Jenkins</a>
-                    <a href="#">Docker</a>
-                </div>
-            </div>
+        <ul class="menu">
+            <li>
+                <button class="dropdown-btn">Dashboard</button>
+            </li>
 
-            <a href="about.php">About</a>
-            <a href="service.php">Services</a>
-            <a href="contact.php">Contact</a>
-        </nav>
-    </div>
-</header>
+            <li>
+                <button class="dropdown-btn">Courses</button>
+                <ul class="dropdown">
+                    <li>Linux</li>
+                    <li>AWS</li>
+                    <li>Shell Script</li>
+                    <li>Jenkins</li>
+                    <li>Docker</li>
+                </ul>
+            </li>
 
-<main>
+            <li>
+                <button class="dropdown-btn">Services</button>
+                <ul class="dropdown">
+                    <li>Web Development</li>
+                    <li>DevOps</li>
+                    <li>Cloud</li>
+                </ul>
+            </li>
+
+            <li>
+                <button class="dropdown-btn">Contact</button>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
