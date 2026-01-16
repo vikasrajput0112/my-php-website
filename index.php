@@ -12,18 +12,15 @@
 <section class="section">
     <div class="container">
         <h2>Our Services</h2>
-
         <div class="services">
             <div class="card">
                 <h3>Web Development</h3>
                 <p>Modern, responsive, and performance-driven websites.</p>
             </div>
-
             <div class="card">
                 <h3>Backend & APIs</h3>
                 <p>Secure and scalable backend systems with clean APIs.</p>
             </div>
-
             <div class="card">
                 <h3>DevOps & Cloud</h3>
                 <p>CI/CD pipelines, Docker, and cloud deployments.</p>
