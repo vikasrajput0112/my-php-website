@@ -1,7 +1,7 @@
 </main>
 
-<footer class="site-footer">
-    <p>© <?php echo date("Y"); ?> My Website. All Rights Reserved.</p>
+<footer class="footer">
+    <p>© <?php echo date("Y"); ?> My Website. All rights reserved.</p>
 </footer>
 
 </body>
