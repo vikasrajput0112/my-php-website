@@ -8,42 +8,17 @@
 </head>
 <body>
 
-<div class="layout">
+<header class="header">
+    <div class="container header-flex">
+        <div class="logo">My<span>Website</span></div>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <div class="sidebar-logo">My<span>Website</span></div>
+        <nav class="nav">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="service.php">Services</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </div>
+</header>
 
-        <ul class="menu">
-            <li>
-                <button class="dropdown-btn">Dashboard</button>
-            </li>
-
-            <li>
-                <button class="dropdown-btn">Courses</button>
-                <ul class="dropdown">
-                    <li>Linux</li>
-                    <li>AWS</li>
-                    <li>Shell Script</li>
-                    <li>Jenkins</li>
-                    <li>Docker</li>
-                </ul>
-            </li>
-
-            <li>
-                <button class="dropdown-btn">Services</button>
-                <ul class="dropdown">
-                    <li>Web Development</li>
-                    <li>DevOps</li>
-                    <li>Cloud</li>
-                </ul>
-            </li>
-
-            <li>
-                <button class="dropdown-btn">Contact</button>
-            </li>
-        </ul>
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <main class="main-content">
+<main class="page-layout">
