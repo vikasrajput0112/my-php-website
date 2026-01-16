@@ -15,7 +15,7 @@
         </div>
 
         <nav class="navbar">
-            <a href="index.php" class="active">Home</a>
+            <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="service.php">Services</a>
             <a href="contact.php">Contact</a>
